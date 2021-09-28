@@ -1,0 +1,29 @@
+{
+  "UpgradeCommand": [
+    {
+      "Command": "Burn",
+      "FileName": "u-boot.bin.img"
+    },
+    {
+      "Command": "Burn",
+      "FileName": "custom-x.cramfs.img"
+    },
+    {
+      "Command": "Burn",
+      "FileName": "romfs-x.cramfs.img"
+    },
+    {
+      "Command": "Burn",
+      "FileName": "user-x.cramfs.img"
+    },
+    {
+      "Command": "Burn",
+      "FileName": "web-x.cramfs.img"
+    }
+  ],
+  "Hardware": "NBD7024H-P",
+  "DevID": "000001071100100000300000",
+  "Vendor": "General",
+  "CompatibleVersion": 1,
+  "CRC": "403502210040"
+}
