@@ -1,0 +1,1 @@
+mtdparts=hi_sfc:320K(boot),4736K(romfs),5824K(usr),1536K(web),3072K(custom),128K(logo),768K(mtd)

@@ -1,0 +1,11 @@
+########################################################
+# H21 
+
+DefaultVendor= 0x1da5
+DefaultProduct=0xf000
+
+TargetClass=0xff
+
+#CheckSuccess=20
+
+H21Mode=1
