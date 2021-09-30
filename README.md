@@ -2,9 +2,9 @@
 针对NBD7024H-P NVR的单板，通过接调试串口的方式，把串口终端以及telnetd后台给打开了；
 涉及到的工具以及最终的二进制也上传到项目里；
 
-@ source 对应源文件包
-@ cramfs-1.1  过程中使用的工具，用来解压和制作cramfs映像
-@ modify 最终修改的二进制包，其中通过调试串口烧写 romfs-x.cramfs_new.img 文件即可；
+#source 对应源文件包
+#cramfs-1.1  过程中使用的工具，用来解压和制作cramfs映像
+#modify 最终修改的二进制包，其中通过调试串口烧写 romfs-x.cramfs_new.img 文件即可；
 
 # 修改说明
 由于源固件里，自带的busybox命令太少，所以也顺便更新了最新版本的busybox
