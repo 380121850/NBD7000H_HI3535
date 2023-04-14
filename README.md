@@ -34,6 +34,8 @@ cramfsck -x dirname filename
 ```
 > -x dirname 表示释放到dirname所指定的目录中.
 
->例如：
->cramfsck -x root root.cramfs 解压*.cramfs 文件
->mkcramfs root root.cramfs 压缩root根文件为root.cramfs
+>例如
+>解压*.cramfs 文件:
+>cramfsck -x root root.cramfs 
+>压缩root根文件为root.cramfs:
+>mkcramfs root root.cramfs 
