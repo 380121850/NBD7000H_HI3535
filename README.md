@@ -32,10 +32,9 @@ cramfsck工具用来进行CRAMFS文件系统的释放和检查
 ```
 cramfsck -x dirname filename
 ```
-> -x dirname 表示释放到dirname所指定的目录中.
+>-x dirname 表示释放到dirname所指定的目录中.  
+>例如:   
+>解压*.cramfs 文件: `cramfsck -x root root.cramfs`    
+>压缩root根文件为root.cramfs: `mkcramfs root root.cramfs`    
+---
 
->例如
->解压*.cramfs 文件:
->cramfsck -x root root.cramfs 
->压缩root根文件为root.cramfs:
->mkcramfs root root.cramfs 
