@@ -37,4 +37,5 @@ cramfsck -x dirname filename
 >解压*.cramfs 文件: `cramfsck -x root root.cramfs`    
 >压缩root根文件为root.cramfs: `mkcramfs root root.cramfs`    
 ---
-
+## 后记
+基于上面的固件烧录到单板，可以连接网络、telnetd以及串口；也仅于此，不会再有更新
